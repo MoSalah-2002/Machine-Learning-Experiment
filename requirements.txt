@@ -1,64 +1,22 @@
-<div align="center">
+# Data and classical machine learning
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+statsmodels
 
-# 📊 Machine Learning Experiments
+# Deep learning experiments
+tensorflow
+keras
+torch
 
-### Practical notebooks for classical ML, model evaluation, and data exploration
+# Reinforcement learning
+gymnasium
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--learn-Modeling-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Experiments-20B486?style=for-the-badge)
-
-**A collection of practical machine-learning studies** — from regression and classification to time-series features and exploratory data analysis.
-
-</div>
-
----
-
-## 🌟 Topics covered
-
-| Topic | Examples |
-|---|---|
-| 📈 Regression | Linear Regression, SVR, feature engineering |
-| 🎯 Classification | Logistic Regression and classical classification workflows |
-| 🧪 Model preparation | Train/test splitting, preprocessing, feature selection |
-| ⏳ Time series | Weather analysis and LSTM forecasting experiments |
-| 🎲 Probability | Random-process and probability simulations |
-| 📊 EDA | Exploratory analysis and visualization with Pandas, Matplotlib, Seaborn, and Plotly |
-| 🤖 Reinforcement learning | Introductory Gym environment experiment |
-
-## 📁 Structure
-
-```text
-Machine-Learning-Experiment/
-├── notebooks/
-│   ├── Time-Series-Feature-Engineering-and-Linear-Regression.ipynb
-│   ├── Regression-and-Support-Vector-Regression.ipynb
-│   ├── Classical-Classification-and-Feature-Selection.ipynb
-│   └── ...
-├── README.md
-└── requirements.txt
-```
-
-## 🚀 Quick start
-
-```bash
-git clone https://github.com/MoSalah-2002/Machine-Learning-Experiment.git
-cd Machine-Learning-Experiment
-python -m venv .venv
-# Activate the environment, then:
-pip install -r requirements.txt
-```
-
-Launch a notebook using Jupyter or Google Colab. Notebooks may require external CSV/PKL datasets; dataset files are intentionally not bundled, so update the paths to your local copies.
-
-## 🔐 Security
-
-Hard-coded credentials detected during preparation were removed from the published notebook copies. Use environment variables for any service credentials and do not commit API keys, tokens, or private datasets.
-
-## 📝 Disclaimer
-
-These notebooks are independent learning experiments. They are not all benchmarked or production-ready, and their performance should not be interpreted as a validated model comparison.
-
-## 👋 About
-
-Maintained by **Mohamed Salah** — Machine Learning & NLP Engineer (Junior).
+# Notebook tools
+jupyter
+ipykernel
+tqdm
